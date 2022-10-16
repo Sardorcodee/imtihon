@@ -1,0 +1,296 @@
+:root {
+  --oq: #ffff;
+  --kuk: #00bafc;
+  --oqgrey: #f4f4f4;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.porshin {
+  flex: 1;
+}
+.uchdanikkisi {
+  width: 66%;
+}
+.uchdanbiri {
+  width: 33%;
+}
+.ikkidanbiri{
+    width: 50%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header#header {
+  position: sticky;
+  background-color: #ffffff;
+  padding: 1.2rem 0;
+  box-shadow: 0 0 15px rgb(128, 126, 126);
+  top: 0;
+  z-index: 9999;
+}
+header#header .logo {
+  height: 25px;
+}
+header#header .logo:hover {
+  opacity: 0.8;
+}
+header#header .logo:active {
+  opacity: 0.4;
+}
+header#header .menu {
+  margin-left: auto;
+}
+header#header .menu ul {
+  gap: 40px;
+}
+header#header .menu ul li {
+  text-transform: capitalize;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+}
+header#header .menu li:nth-child(1) {
+  border-bottom: 3px solid black;
+}
+header#header .menu li:hover {
+  border-bottom: 3px solid black;
+}
+header#header .menu li:active {
+  background-color: black;
+  color: var(--oq);
+}
+header#header .menu li:nth-child(6) {
+  border-bottom: none;
+  background-color: white;
+}
+
+header#header .menu .button {
+  color: var(--oq);
+  background-color: var(--kuk);
+  border: none;
+  padding: 0.5em 0.97em;
+  font-size: 18px;
+  border-radius: 6px;
+  border-bottom: none;
+}
+header#header .menu .button:hover {
+  background-color: inherit;
+  border: 3px solid var(--kuk);
+  padding: 0.5em 0.8em;
+  color: var(--kuk);
+}
+header#header .menu .button:active {
+  opacity: 0.4;
+  color: var(--oq);
+  background-color: var(--kuk);
+}
+/* header end */
+section#Xizmatlar {
+  text-align: center;
+  padding: 8.5em 0;
+}
+section#Xizmatlar h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+section#Xizmatlar p {
+  width: 1000px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 2em auto;
+}
+/* section#xizmatlar end */
+section#services{
+    background-color: var(--oqgrey);
+    padding: 1em 0;
+}
+section#services .list{
+    background-color:var(--oq);
+    width: 980px;
+    height: auto;
+    padding: 0em 1em;
+    margin: 5em auto;
+    box-shadow: 0 0 10px rgb(223, 222, 222);
+    gap: 50px;
+}
+section#services  img{
+   height: 70%;
+}
+section#services .list .porshin{
+    margin: 2em 0;
+    
+}
+section#services .list h2{
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+section#services .list p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 1.5em 0;
+}
+
+section#services .list li{
+    margin: 1em 0;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+section#services .list li .doira{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:var(--kuk);
+    margin: 6px 0;
+}
+section#services .porshin .flex .button{
+  background: var(--kuk);
+  border: 0px;
+  padding: 1em 1em;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--oq);
+  border-radius: 5px;
+}
+ section#services .button:hover{
+ opacity: 0.7;
+  }
+ section#services .button:active{
+ opacity: 0.4;
+  }
+section#services .porshin .link{
+  color: var(--kuk);
+  font-size: 20px;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+/* section#services end */
+section#form{
+  padding: 4em 0;
+  text-align: center;
+  background-color: var(--kuk);
+}
+section#form h2{
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--oq);
+}
+section#form p{
+  margin: 0 auto;
+  color: var(--oq);
+  width: 750px;
+  font-size: 17px;
+  font-weight: 400;
+line-height: 150%;
+ padding: 2em 0;
+}
+section#form  .formcard{
+  padding: 1em 0;
+  gap: 40px;
+  margin: 0 auto;
+  width: 380px;
+  height: auto;
+  background-color: var(--oq);
+  border-radius: 5px;
+  }
+  section#form form input{
+  margin: 0.5em 0;
+  padding: 1.4em 1em;
+  width: 330px;
+  border: 0;
+  font-size: 16px;
+  background-color: var(--oqgrey);
+  border-radius: 6px;
+  }
+  section#form form select{
+    margin: 0.5em 0;
+    padding: 1.4em 1em;
+  width: 330px;
+  border: 0;
+  font-size: 16px;
+  background-color: var(--oqgrey);
+  border-radius: 6px;
+
+  }
+  section#form form button{
+    margin: 0.5em 0;
+    padding: 0.8em 2em;
+    font-size: 17px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 6px;
+    color: var(--oq);
+    background-color: var(--kuk);
+  }
+  button:hover{
+ opacity: 0.7;
+  }
+  button:active{
+ opacity: 0.4;
+  }
+   /* section#form end */
+ footer {
+    padding: 4em 0;
+    background-color: black;
+    color: var(--oq);
+  }
+  footer h2{
+   font-size: 22px;
+   font-weight: 700;
+  }
+  footer p{
+    margin: 2em 0;
+    width: 310px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  footer ul{
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 12px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  footer li:hover{
+    color: var(--kuk);
+  }
+  footer li:active{
+    opacity: 0.5;
+  }
+  footer img{
+    width: 30px;
+    height: 27px;
+    margin-top: 5px;
+  } 
+  footer ul .flex{
+     gap: 5px;
+     align-items: flex-end;
+     font-size: 18px;
+  } 
